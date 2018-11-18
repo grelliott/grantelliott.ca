@@ -26,6 +26,7 @@ github_username:  grelliott
 
 # stop drafts from being published in feed
 show_drafts: false
+show_excerpts: true
 
 defaults:
   -
