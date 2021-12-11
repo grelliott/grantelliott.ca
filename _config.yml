@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://grantelliott.ca" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
+
 github_username:  grelliott
 
 # stop drafts from being published in feed
@@ -37,6 +38,10 @@ defaults:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line-numbers: true
 theme: minima
 #theme: jekyll-theme-hydeout
 plugins:
