@@ -23,7 +23,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         {%- if site.show_excerpts -%}
 	  {%- if post.image -%}
-	  <img src="{{post.image}}" />
+	  <img src="{{post.image}}" {% if post.image-alt %}alt="{{post.image-alt}}"{% endif %}/>
 	  {%- endif -%}
           {{ post.excerpt }}
         {%- endif -%}

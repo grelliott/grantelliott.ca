@@ -4,6 +4,7 @@ title: Making a Dub Siren
 date: 2018-09-02 21:38:00 -400
 category: project
 image: "/assets/img/dub_siren/fully_assembled.webp"
+image-alt: "A fully assembled circuit board"
 excerpt_seperator: <!-- more -->
 tags: [electronics, audio, signal generator, 555, circuit, dub siren]
 ---
@@ -76,8 +77,7 @@ top-right. The resistors and capacitors for the signal tuning are above their IC
 
 
 # Assembly
-[![Dub Siren printed board
-unassembled](/assets/img/dub_siren/printed_board.webp){:width="500px"}](/assets/img/dub_siren/printed_board.jpg)
+[![Dub Siren printed board unassembled](/assets/img/dub_siren/printed_board.webp){:width="500px"}](/assets/img/dub_siren/printed_board.jpg)
 
 After designing the board layout, I sent the files off to a circuit printing company. A few weeks
 later, I received a delivery with my circuit board(s)! I ordered 5, since the printing was cheap and
@@ -86,14 +86,12 @@ shipping wasn't.
 It was then just a matter of placing the components in the correct spots, and soldering them in.
 This is the circuit board with all the non-external components soldered in.
 
-[![Partially assembled
-board](/assets/img/dub_siren/partially_assembled.webp){:width="500px"}](/assets/img/dub_siren/partially_assembled.jpg)
+[![Partially assembled board](/assets/img/dub_siren/partially_assembled.webp){:width="500px"}](/assets/img/dub_siren/partially_assembled.jpg)
 
 All that was left was to attach the external components: the potentiometers, power, audio jack,
 switches, and LEDs.
 
-[![Assembled
-board](/assets/img/dub_siren/fully_assembled.webp){:width="500px"}](/assets/img/dub_siren/fully_assembled.jpg)
+[![Assembled board](/assets/img/dub_siren/fully_assembled.webp){:width="500px"}](/assets/img/dub_siren/fully_assembled.jpg)
 
 # Remaining
 
