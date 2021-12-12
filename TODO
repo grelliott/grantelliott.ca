@@ -8,7 +8,7 @@ X Update distribution
 -- bundle exec jekyll build
 - Document web server setup
 - add posts (streamline adding drafts authored elsewhere)
-- add vscode tasks to build
+X add vscode tasks to build
 - update style
 - acknowledge browser's suggestion for dark theme
 - update info
