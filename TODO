@@ -11,7 +11,8 @@ X Update distribution
 X add vscode tasks to build
 - update style
 - acknowledge browser's suggestion for dark theme
-- update info
+X update info
 - security test
 X fix html validation
 X add ssh identify keys
+- Migrate to container
