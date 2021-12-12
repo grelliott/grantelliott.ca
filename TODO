@@ -1,0 +1,17 @@
+X update jekyll (currently at 3.8.3, latest is 4.2.1)
+X gem update
+Xs bundle install
+X ruby needs updating
+X Update distribution
+- Document setup for jekyll
+- Document process for updating posts
+-- bundle exec jekyll build
+- Document web server setup
+- add posts (streamline adding drafts authored elsewhere)
+- add vscode tasks to build
+- update style
+- acknowledge browser's suggestion for dark theme
+- update info
+- security test
+X fix html validation
+X add ssh identify keys

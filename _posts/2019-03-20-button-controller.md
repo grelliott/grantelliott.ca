@@ -2,6 +2,7 @@
 layout: post
 title: A Button Controller
 image: "/assets/img/midi/board-rev_a.png"
+image-alt: "Finalized design of circiut board"
 tags: [eletronics, arduino, i2c, circuit, schematic]
 ---
 
