@@ -24,6 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://grantelliott.ca" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  grelliott
+linkedin_username: grantrelliott
 
 # stop drafts from being published in feed
 show_drafts: false
