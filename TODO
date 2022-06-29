@@ -15,4 +15,7 @@ X update info
 - security test
 X fix html validation
 X add ssh identify keys
-- Migrate to container
+- Migrate to containers
+- Set up space for experimenting with Rust/webasm
+- Add more content
+-- Feed in from some source that can be edited locally, synced on cloud, published here
