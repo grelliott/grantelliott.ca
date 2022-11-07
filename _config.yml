@@ -25,6 +25,9 @@ url: "https://grantelliott.ca" # the base hostname & protocol for your site, e.g
 
 github_username:  grelliott
 linkedin_username: grantrelliott
+mastodon:
+  - username: grantelliott
+    instance: mstdn.ca
 
 # stop drafts from being published in feed
 show_drafts: false
