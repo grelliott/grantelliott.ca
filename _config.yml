@@ -49,13 +49,25 @@ kramdown:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+
+header_pages:
+  - about.md
+  - experiments.md
+
+include:
+  - .well-known/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - TODO
+  - Gemfile
+  - Gemfile.lock
+  - .jekyll-cache
+  - .sass-cache
+  - .gitignore
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/

@@ -1,0 +1,4 @@
+Contact: mailto:admin@grantelliott.ca
+Expires: 2025-11-19T12:00:00.000Z
+Preferred-Languages: en
+Canonical: https://grantelliott.ca/.well-known/security.txt

@@ -1,11 +1,19 @@
-X update jekyll (currently at 3.8.3, latest is 4.2.1)
-X gem update
-Xs bundle install
+registrar & dns
+- canspace.ca
+hosting
+- ca.ovh.com
+
+X update jekyll (currently at 3.8.3, latest was 4.2.1, now at 4.3.1)
+- gem update
+- bundle install
+- bundle update
+
 X ruby needs updating
 X Update distribution
 - Document setup for jekyll
 - Document process for updating posts
 -- bundle exec jekyll build
+
 - Document web server setup
 - add posts (streamline adding drafts authored elsewhere)
 X add vscode tasks to build
@@ -15,13 +23,17 @@ X update info
 - security test
 X fix html validation
 X add ssh identify keys
+
+X Set up google search ownership
+https://search.google.com/search-console?resource_id=sc-domain%3Agrantelliott.ca
+
 - Migrate to containers
 -- installed docker
-- Set up space for experimenting with Rust/webasm
+X Set up space for experimenting with Rust/webasm
 -- new branch created for this
 -- use containers to run each one
 -- use web server routing to access each docker?
---- likely by ProxyPas
+--- likely by ProxyPass
 --- set up routing container at /playground/ (for now, eventually make it root and serve blog by default)
 --- docker network/compose based at experiements, serve up each container as a page
 --- add proxypass/proxyreversepass rules to apache
@@ -34,3 +46,4 @@ X add ssh identify keys
 - Add more content
 -- Feed in from some source that can be edited locally, synced on cloud, published here
 - Set up secondary site (port redirect) to work on site while main one stays as-is
+
