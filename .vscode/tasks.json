@@ -5,18 +5,35 @@
     "tasks": [
         {
             "label": "Build",
-            "type": "shell",
-            "command": "bundle exec jekyll build",
-            "problemMatcher": [],
+            "dependsOrder": "sequence",
+            "dependsOn": ["jekyll-build", "Tidy"],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
         },
         {
+            "label": "jekyll-build",
+            "type": "shell",
+            "command": "bundle exec jekyll build",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+            }
+        },
+        {
             "label": "Update",
             "type": "shell",
             "command": "bundle install"
+        },
+        {
+            // Depends on tidy process: sudo apt install tidy
+            "label": "Tidy",
+            "type": "shell",
+            "command": "find ${workspaceFolder}/_site -name '*.html' -type f -print -exec tidy -config tidy.cfg -mq '{}' \\;",
+            "group": {
+                "kind": "build"
+            }
         }
     ]
 }
