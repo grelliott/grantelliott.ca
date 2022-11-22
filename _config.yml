@@ -68,6 +68,7 @@ exclude:
   - .jekyll-cache
   - .sass-cache
   - .gitignore
+  - favicon_io.zip
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
